@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# EEG SDK wheel (大文件, pip install 时单独提供)
+*.whl
+
+# 训练数据 & 模型 (用户自己生成)
+*.npz
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# Arduino
+Arduino IDE/
+**/build/
+
+# Temp
+*.tmp
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
