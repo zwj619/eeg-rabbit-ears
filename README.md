@@ -56,7 +56,6 @@ D:\Arduino\
 ├── train_model.py            # Alpha 阈值模型训练
 ├── realtime_control.py       # 实时脑控 v1 (需预训练模型)
 ├── realtime_control_v4.py    # 实时脑控 v4 (自适应基线, 推荐)
-├── realtime_control_v5.py    # 实时脑控 v5 (RMS 功率法备选)
 │
 ├── record_eeg.py             # 通用 CSV 录制
 ├── csv2set.py                # CSV → EEGLAB .set 转换
@@ -180,7 +179,6 @@ v4 使用**自适应动态基线**，无需预训练模型。前 10 秒自动学
 |:---|:---|:---|
 | v1 | 固定阈值 Alpha | 需预训练模型，简单直接 |
 | v4 ★ | 自适应基线 Alpha | Butterworth 滤波 + 动态基线，推荐使用 |
-| v5 | RMS 总功率 | 不依赖 Alpha，高阻抗备选方案 |
 
 ---
 
